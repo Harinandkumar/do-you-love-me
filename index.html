@@ -8,11 +8,25 @@
 </head>
 <body>
     <div class="container">
-        <div class="card">
+        <div class="card" id="main-card">
             <div class="head"><h1>Do you love me?</h1></div>
             <div class="btn">
-                <button class="btn1" id="btn1" onclick="clickYesButton() ">Yes</button>
+                <button class="btn1" id="btn1" onclick="clickYesButton()">Yes</button>
                 <button class="btn1" id="btn2">No</button>
+            </div>
+        </div>
+        <div class="card" id="options-card" style="display: none;">
+            <div class="head"><h1>What would you like to do?</h1></div>
+            <div class="btn">
+                <button class="btn1" id="marry-btn">Marry</button>
+                <button class="btn1" id="date-btn">Date</button>
+            </div>
+        </div>
+        <div class="card" id="date-options-card" style="display: none;">
+            <div class="head"><h1>What would you like to do on a date?</h1></div>
+            <div class="btn">
+                <button class="btn1" id="coffee-btn">Coffee</button>
+                <button class="btn1" id="movie-btn">Movie</button>
             </div>
         </div>
     </div>
